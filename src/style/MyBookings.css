@@ -1,0 +1,38 @@
+.my-bookings-bg {
+  min-height: 100vh;
+  background:  url('https://upload.wikimedia.org/wikipedia/commons/c/cb/Classical_spectacular10.jpg')no-repeat center center fixed;
+  background-size: cover;
+  padding: 40px 20px;
+}
+
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-glow {
+  color: #0ab04a;
+  text-shadow: 0 0 10px rgba(30, 58, 43, 0.6);
+  font-weight: 700;
+}
+
+.search-bar {
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.search-bar::placeholder {
+  color: #efeeee;
+}
+
+.search-bar:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 8px #fcd34d;
+}

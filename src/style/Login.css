@@ -1,0 +1,84 @@
+.login-page {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/D%C3%BClmen%2C_D%C3%BClmener_Sommer%2C_Open-Air-Konzert%2C_%22Bounce%22_--_2018_--_0051.jpg/1920px-D%C3%BClmen%2C_D%C3%BClmener_Sommer%2C_Open-Air-Konzert%2C_%22Bounce%22_--_2018_--_0051.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.login-box h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+  color: #e0f7fa;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: #4dd0e1;
+  box-shadow: 0 0 10px rgba(77, 208, 225, 0.5);
+}
+
+.form-label {
+  color: #f1f1f1;
+  font-weight: 500;
+}
+
+.input-group-text {
+  background-color: transparent;
+  border: none;
+  color: #4dd0e1;
+}
+
+.btn-primary {
+  background-color: #00e5ff;
+  border: none;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #00bcd4;
+  transform: translateY(-1px);
+}
+
+a {
+  color: #bbdefb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.alert {
+  font-size: 0.9rem;
+  padding: 8px 12px;
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #ffcccc;
+  border: 1px solid #ff6666;
+}
+

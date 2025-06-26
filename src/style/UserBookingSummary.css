@@ -1,0 +1,131 @@
+/* Background and layout */
+.ubs-page {
+  min-height: 100vh;
+  background-image: url('https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/12/30232040/live-concerts.jpeg?tr=w-1366,f-jpg,pr-true');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8f9fa;
+}
+
+.ubs-overlay {
+  background-color: rgba(44, 47, 51, 0.85); /* dark overlay */
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.7);
+  max-width: 960px;
+  width: 100%;
+  padding: 30px;
+}
+
+/* Header styles */
+.ubs-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.ubs-title {
+  color: #ffc107;
+  font-size: 1.8rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.ubs-icon {
+  margin-right: 10px;
+}
+
+.ubs-back-button {
+  background-color: #ffc107;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+}
+
+.ubs-back-button:hover {
+  background-color: #e0a800;
+}
+
+/* No data message */
+.ubs-no-data {
+  background-color: #ffc107;
+  color: #000;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Table styles */
+.ubs-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.ubs-table-header-row {
+  background-color: #3a3d42;
+  color: #0c0c0c;
+}
+
+.ubs-table-header-row th {
+  padding: 14px 16px;
+  border-bottom: 3px solid #444;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.ubs-table-row {
+  border-bottom: 1px solid #444;
+}
+
+.ubs-table-row td {
+  padding: 14px 16px;
+  vertical-align: top;
+  font-size: 0.95rem;
+}
+
+.ubs-user-number {
+  color: #f7f6f5;
+  font-weight: 600;
+}
+
+/* Booking list */
+.ubs-bookings-list {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.ubs-booking-item {
+  color: #d9534f;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+/* Loading and error */
+.ubs-loading,
+.ubs-error {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+
+.ubs-loading {
+  color: #ffc107;
+}
+
+.ubs-error {
+  color: #d9534f;
+}

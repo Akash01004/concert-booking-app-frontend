@@ -1,0 +1,32 @@
+.admin-dashboard-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(10, 10, 20, 0.9)),
+              url('https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/12/30232040/live-concerts.jpeg?tr=w-1366,f-jpg,pr-true')
+              no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 60px;
+}
+
+.dashboard-card {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  color: #fff;
+}
+
+.header-link button {
+  transition: all 0.2s ease-in-out;
+}
+
+.header-link button:hover {
+  transform: translateY(-2px);
+}
+
+.table thead th {
+  vertical-align: middle;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}

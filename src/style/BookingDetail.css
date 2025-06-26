@@ -1,0 +1,23 @@
+.booking-detail-bg {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('https://upload.wikimedia.org/wikipedia/commons/c/cb/Classical_spectacular10.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-glow {
+  color: #fcd34d;
+  text-shadow: 0 0 12px rgba(252, 211, 77, 0.6);
+}

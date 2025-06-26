@@ -1,0 +1,58 @@
+.concert-update-bg {
+  background: url('https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/12/30232040/live-concerts.jpeg?tr=w-1366,f-jpg,pr-true') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.concert-update-bg .glass-form {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.concert-update-bg .text-glow {
+  color: #fcd34d;
+  text-shadow: 0 0 10px rgba(252, 211, 77, 0.5);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.concert-update-bg .btn-outline-light {
+  color: white;
+  border-color: white;
+  transition: all 0.3s ease;
+}
+
+.concert-update-bg .btn-outline-light:hover {
+  background-color: #fcd34d;
+  border-color: #fcd34d;
+  color: #222;
+  box-shadow: 0 0 8px #fcd34d;
+}
+
+.concert-update-bg .form-label {
+  font-weight: 600;
+  color: #fcd34d;
+}
+
+.concert-update-bg input.form-control {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(252, 211, 77, 0.7);
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.concert-update-bg input.form-control:focus {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: #fcd34d;
+  box-shadow: 0 0 8px #fcd34d;
+  color: #222;
+  outline: none;
+}
+
+.concert-update-bg img.img-fluid {
+  border: 2px solid #fcd34d;
+}

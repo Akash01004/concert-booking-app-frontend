@@ -1,0 +1,36 @@
+.book-bg {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('https://upload.wikimedia.org/wikipedia/commons/c/cb/Classical_spectacular10.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 40px 15px;
+}
+
+.glass-form {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  border-radius: 16px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+}
+
+.text-glow {
+  color: #fcd34d;
+  text-shadow: 0 0 12px rgba(252, 211, 77, 0.6);
+}
+
+input.form-control {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(252, 211, 77, 0.7);
+  color: #fff;
+}
+
+input.form-control:focus {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: #fcd34d;
+  box-shadow: 0 0 8px #fcd34d;
+  color: #000;
+  outline: none;
+}

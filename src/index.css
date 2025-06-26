@@ -1,0 +1,53 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #1c1c1c; /* Dark background for modern feel */
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Universal input fix (removes yellow highlights & autofill bg) */
+input,
+textarea,
+select {
+  border: 1px solid #ccc !important;
+  background-color: #1c1c1c;
+  color: #fff;
+  outline: none !important;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #0c0c0c !important;
+  box-shadow: none !important;
+}
+
+/* Autofill fix for Chrome */
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #1c1c1c inset !important;
+  -webkit-text-fill-color: #fff !important;
+  transition: background-color 9999s ease-out;
+}
+
+/* Remove Bootstrap validation borders if using Bootstrap */
+input.is-valid,
+textarea.is-valid,
+select.is-valid,
+input.is-invalid,
+textarea.is-invalid,
+select.is-invalid {
+  border-color: inherit !important;
+  box-shadow: none !important;
+}
+

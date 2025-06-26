@@ -1,0 +1,47 @@
+.user-concerts-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(10, 10, 30, 0.85)),
+              url('https://upload.wikimedia.org/wikipedia/commons/c/cb/Classical_spectacular10.jpg')
+              no-repeat center center fixed;
+  background-size: cover;
+  padding: 40px 20px;
+}
+
+.concert-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.card.concert-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.card.concert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  color: #00ffd5;
+}
+
+.text-muted {
+  color: #ccc !important;
+}
+
+.alert-warning {
+  background-color: rgba(255, 193, 7, 0.1);
+  color: #ffc107;
+  border: 1px solid #ffc107;
+}
+
+.alert-info {
+  background-color: rgba(13, 202, 240, 0.1);
+  color: #0dcaf0;
+  border: 1px solid #0dcaf0;
+}

@@ -1,0 +1,24 @@
+/* Full background */
+.concert-bg {
+  background-image: url('https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/12/30232040/live-concerts.jpeg?tr=w-1366,f-jpg,pr-true');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 50px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+/* Glass effect */
+.glass-card {
+  max-width: 650px;
+  width: 100%;
+  background: rgba(171, 192, 233, 0.1);
+  backdrop-filter: blur(50px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  color: rgb(18, 1, 1);
+}
